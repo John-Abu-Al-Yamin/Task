@@ -1,0 +1,158 @@
+/* =================== Light Them ===================*/
+body.light-theme {
+  background-color: #f5f5f5;
+}
+/* Light Start Header */
+body.light-theme .img::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body.light-theme nav ul li .active-link {
+  color: var(--main-color-dark);
+}
+body.light-theme nav ul li a {
+  color: white;
+  transition: var(--transition);
+}
+body.light-theme nav ul li a:hover {
+  color: var(--main-color-dark);
+}
+
+body.light-theme .hero-section .info .second-title {
+  color: var(--main-color-dark);
+}
+
+body.light-theme .hero-section .info .btn-hero {
+  border-color: var(--main-color-dark);
+}
+/* Light End Header */
+
+/* Light Start About */
+
+body.light-theme .about-page .info .about-title {
+  color: blue;
+}
+body.light-theme .about-page .info .about-title::before {
+  background: var(--color-bg);
+}
+body.light-theme .about-page .info .secont-text {
+  color: var(--color-bg);
+}
+body.light-theme .about-page .info .about-text {
+  font-size: 14px;
+  color: var(--color-bg);
+}
+body.light-theme .about-page .info .items .item .item-text {
+  color: var(--color-bg);
+}
+body.light-theme .about-page .info .items .item i {
+  color: var(--color-bg);
+}
+body.light-theme .about-page .info .items .item-btn {
+  background: #474747;
+  border-color: transparent;
+  box-shadow: 3px 3px 6px rgb(99, 99, 99);
+}
+body.light-theme .about-page .info .items .item-btn:hover {
+  box-shadow: none;
+}
+/* Light End About */
+
+/* Light Start Cases */
+body.light-theme .cases-page .info .about-title {
+  color: blue;
+}
+body.light-theme .cases-page .info .about-title::before {
+  color: var(--color-bg);
+}
+body.light-theme .cases-page .info .secont-text {
+  color: var(--color-bg);
+}
+body.light-theme .cases-page .cases-images .cases-image {
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 3px 3px 8px rgb(87, 87, 87);
+}
+body.light-theme .cases-page .cases-images .cases-image:hover {
+  box-shadow: none;
+}
+body.light-theme .cases-page .button-container .btn-cases {
+  background: transparent;
+  background: #474747;
+  border-color: transparent;
+  box-shadow: 3px 3px 6px rgb(99, 99, 99);
+}
+body.light-theme .cases-page .button-container .btn-cases:hover {
+  box-shadow: none;
+}
+/* Light End Cases */
+
+/*Light Start Contact */
+
+body.light-theme .contact .contact-form .info .contact-title {
+  color: blue;
+}
+
+body.light-theme .contact .contact-form .info .contact-title::before {
+  background: var(--color-bg);
+}
+body.light-theme .contact .contact-form .info h2 {
+  color: var(--color-bg);
+}
+
+body.light-theme .contact-form .forms form input,
+textarea {
+  border: 1px solid rgb(161, 161, 161);
+  color: var(--color-bg);
+}
+body.light-theme .contact-form .forms form input::placeholder {
+  color: var(--color-bg);
+}
+body.light-theme .contact-form .forms form input:focus,
+textarea:focus {
+  border-color: transparent;
+  box-shadow: 0 0 8px rgba(59, 59, 59, 0.396);
+}
+
+body.light-theme .contact-form .forms form textarea {
+  border: 1px solid rgb(161, 161, 161);
+}
+body.light-theme .contact-form .forms form textarea:focus {
+  border-color: transparent;
+  box-shadow: 0 0 8px rgba(59, 59, 59, 0.396);
+}
+
+/*Light End Contact */
+
+/* Light Start Footer */
+body.light-theme .footer-content p {
+  color: var(--color-bg);
+}
+
+body.light-theme .footer-link h4 {
+  color: blue;
+}
+body.light-theme .footer-link h4:hover {
+  color: rgb(98, 98, 255);
+}
+body.light-theme .footer-link ul li {
+  color: var(--color-bg);
+}
+
+body.light-theme .footer-link ul li:hover {
+  transform: translateX(5px);
+  color: var(--main-color);
+}
+
+body.light-theme footer .copy-right p {
+  color: #606060;
+}
+
+/* Light End Footer */
+
+/* ============================ */
+@media (max-width: 800px) {
+  nav ul {
+    box-shadow: 5px 3px 8px #515151;
+    background: rgba(10, 10, 10, 0.667);
+  }
+}
