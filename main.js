@@ -1,5 +1,8 @@
 const menuList = document.getElementById("menuList");
 const icon = document.getElementById("icon");
+const container = document.getElementsByName("section");
+const info = document.getElementsByClassName("info");
+// const footerContainer = document.getElementsByClassName("footer-container");
 
 function toggleMenu() {
   menuList.classList.toggle("active-menu");
@@ -94,3 +97,11 @@ document.querySelector(".arrwor .next").addEventListener("click", () => {
 });
 
 // Compare
+
+
+// ScrollReveal
+ScrollReveal({ reset: true, distance: "60px", duration: 2500, delay: 400 });
+
+ScrollReveal().reveal("section", { delay: 100 });
+// ScrollReveal().reveal(".footer-container", { delay: 200 });
+ScrollReveal().reveal(".info", { delay: 200 });

@@ -3,10 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dental Care by Dr. Jaeob Jones - Providing excellent dental services including implants, veneers, teeth whitening, and braces. Contact us for an appointment today."
+    />
+    <meta
+      name="keywords"
+      content="Dental Care, Dr. Jaeob Jones, Dental Services, Implants, Veneers, Teeth Whitening, Braces"
+    />
     <title>Dental Care</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/Light-mode.css" />
+
+<link rel="stylesheet" href="styles/style.min.css" />
+<link rel="stylesheet" href="styles/global.min.css" />
+<link rel="stylesheet" href="styles/Light-mode.min.css" />
 
     <!-- Swiper -->
     <link
@@ -23,6 +32,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
+
   <body>
     <!-- Start Header -->
     <header>
@@ -34,13 +44,13 @@
               <img src="./image/l03 1.png" alt="logo-image" />
             </div>
             <ul id="menuList">
-              <li><a class="active-link" href="">Home</a></li>
-              <li><a href="">About us</a></li>
-              <li><a href="">Servier</a></li>
-              <li><a href="">Cases</a></li>
-              <li><a href="">Team</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Contact us</a></li>
+              <li><a class="active-link" href="#">Home</a></li>
+              <li><a href="#about-us">About us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#cases">Cases</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contact us</a></li>
             </ul>
 
             <div class="left-nav">
@@ -72,7 +82,6 @@
                   <button class="btn btn-hero">Book now</button>
                 </div>
                 <div class="hero-image">
-
                   <!-- Slider main container -->
                   <div class="swiper">
                     <div class="swiper-wrapper">
@@ -106,215 +115,224 @@
       </div>
     </header>
     <!-- End Header -->
-
-    <div class="container">
-      <!-- Start About Page -->
-      <section>
-        <div class="about-page">
-          <div class="info">
-            <p class="about-title">About us</p>
-            <p class="secont-text">Why Choose us</p>
-            <p class="about-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              deserunt unde accusantium perspiciatis modi tempora nesciunt
-              recusandae libero velit,Lorem ipsum dolor sit amet
-            </p>
-            <div class="items">
-              <div class="item">
-                <p class="item-icon"><i class="fa-solid fa-tooth"></i></p>
-                <p class="item-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                </p>
-              </div>
-              <div class="item">
-                <p class="item-icon"><i class="fa-solid fa-tooth"></i></p>
-                <p class="item-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                </p>
-              </div>
-              <div class="item">
-                <p class="item-icon"><i class="fa-solid fa-tooth"></i></p>
-                <p class="item-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                </p>
-              </div>
-              <div class="btn item-btn">Book now</div>
-            </div>
-          </div>
-          <div class="about-left">
-            <div class="about-image">
-              <img src="./image/Rectangle 4.png" alt="About-image" />
-              <img src="./image/Rectangle 3.png" alt="About-image" />
-            </div>
-            <div class="bg-image">
-              <div class="image-info">
-                <div class="info">
-                  <p class="about-light">Working Hours</p>
-                  <p>SAT - THU</p>
-                  <p>Form 12pm to 10pm</p>
+    <main>
+      <div class="container">
+        <!-- Start About Page -->
+        <section id="about-us">
+          <div class="about-page">
+            <div class="info">
+              <h2 class="about-title">About us</h2>
+              <h3 class="secont-text">Why Choose us</h3>
+              <p class="about-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                deserunt unde accusantium perspiciatis modi tempora nesciunt
+                recusandae libero velit,Lorem ipsum dolor sit amet
+              </p>
+              <div class="items">
+                <div class="item">
+                  <p class="item-icon"><i class="fa-solid fa-tooth"></i></p>
+                  <p class="item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  </p>
                 </div>
-                <div class="info">
-                  <p class="about-light">Location</p>
-                  <p>Fitih Settlement New Cairo,Cairo, Egypt 11835 Madinaty</p>
+                <div class="item">
+                  <p class="item-icon"><i class="fa-solid fa-tooth"></i></p>
+                  <p class="item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  </p>
                 </div>
-                <div class="info">
-                  <p class="about-light">Book an appointment</p>
-                  <p>Call us : 01987654367</p>
+                <div class="item">
+                  <p class="item-icon"><i class="fa-solid fa-tooth"></i></p>
+                  <p class="item-text">
+                    Comfortable and welcoming environment to make your visit as
+                    pleasant as possible.
+                  </p>
                 </div>
-                <div class="info">
-                  <p class="about-light">Book an online appointment</p>
-                  <a href="">Click here</a>
-                </div>
+                <a href="#contact" class="btn item-btn">Book now</a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Page -->
-
-      <!-- Start Cases Page -->
-      <section>
-        <div class="cases-page">
-          <div class="info">
-            <p class="about-title">Our cases</p>
-            <p class="secont-text">Cases before and after</p>
-          </div>
-          <div class="cases-page">
-            <div class="cases-images">
-              <div class="cases-image">
-                <img src="./image/Frame 22.png" alt="cases-image" />
-                <img src="./image/Untitled-3 1.png" alt="cases-image" />
+            <div class="about-left">
+              <div class="about-image">
+                <img src="./image/Rectangle 4.png" alt="About-image" />
+                <img src="./image/Rectangle 3.png" alt="About-image" />
               </div>
-              <div class="cases-image">
-                <img src="./image/Frame 22.png" alt="cases-image" />
-                <img src="./image/Untitled-3 1.png" alt="cases-image" />
-              </div>
-              <div class="cases-image">
-                <img src="./image/Frame 22.png" alt="cases-image" />
-                <img src="./image/Untitled-3 1.png" alt="cases-image" />
-              </div>
-            </div>
-          </div>
-          <div class="button-container">
-            <button class="btn btn-cases">Book now</button>
-          </div>
-        </div>
-      </section>
-      <!-- End Cases Page -->
-
-      <!-- Start Contact Page  -->
-      <section>
-        <div class="contact">
-          <div class="contact-map">
-            <div class="bg-image">
-              <div class="info">
-                <div class="info-text">
-                  <h2>Contact Info</h2>
-                  <div class="item">
-                    <i class="fa-solid fa-location-dot"></i>
+              <div class="bg-image">
+                <div class="image-info">
+                  <div class="info">
+                    <p class="about-light">Working Hours</p>
+                    <p>SAT - THU</p>
+                    <p>Form 12pm to 10pm</p>
+                  </div>
+                  <div class="info">
+                    <p class="about-light">Location</p>
                     <p>
-                      Al Thumama St. Building 3278, 3rd Floor, Office: 10, Al
-                      Yassmin District, Riyadh - Saudi Arabia
+                      Fitih Settlement New Cairo,Cairo, Egypt 11835 Madinaty
                     </p>
                   </div>
-                  <div class="item">
-                    <i class="fa-solid fa-phone"></i>
-                    <p>0114993311</p>
+                  <div class="info">
+                    <p class="about-light">Book an appointment</p>
+                    <p>Call us : 01987654367</p>
                   </div>
-                </div>
-                <div class="map-info">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2938.1234296193497!2d31.357152055765116!3d30.05951859214772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583ddec1f976df%3A0xe441298c6bf45762!2sAl%20Hayy%20Ath%20Thamin%2C%20Al%20Mintaqah%20as%20S%C4%81disah%2C%20Nasr%20City%2C%20Cairo%20Governorate%204452004!5e0!3m2!1sen!2seg!4v1717171034727!5m2!1sen!2seg"
-                    width="350"
-                    height="300"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  >
-                  </iframe>
+                  <div class="info">
+                    <p class="about-light">Book an online appointment</p>
+                    <a href="">Click here</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="contact-form">
+        </section>
+
+        <!-- End About Page -->
+
+        <!-- Start Cases Page -->
+        <section id="cases">
+          <div class="cases-page">
             <div class="info">
-              <p class="contact-title">Contact us</p>
-              <h2>Get in Touch</h2>
+              <p class="about-title">Our cases</p>
+              <p class="secont-text">Cases before and after</p>
             </div>
-            <div class="forms">
-              <form>
-                <input type="email" placeholder="Email" />
-                <div class="group-input">
-                  <input type="text" placeholder="Name" />
-                  <input type="number" placeholder="Phone" />
+
+            <div class="cases-page">
+              <div class="cases-images">
+                <div class="cases-image">
+                  <img src="./image/Frame 22.png" alt="cases-image" />
+                  <img src="./image/Untitled-3 1.png" alt="cases-image" />
                 </div>
-                <textarea placeholder="Messages" rows="5"></textarea>
-                <button class="btn-send">Send</button>
-              </form>
+                <div class="cases-image">
+                  <img src="./image/Frame 22.png" alt="cases-image" />
+                  <img src="./image/Untitled-3 1.png" alt="cases-image" />
+                </div>
+                <div class="cases-image">
+                  <img src="./image/Frame 22.png" alt="cases-image" />
+                  <img src="./image/Untitled-3 1.png" alt="cases-image" />
+                </div>
+              </div>
+            </div>
+
+            <div class="button-container">
+              <button class="btn btn-cases">Book now</button>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- End Contact Page  -->
+        </section>
+        <!-- End Cases Page -->
 
-      <!-- Start Footer -->
-      <footer>
-        <div class="footer-container">
-          <div class="footer-content">
-            <img src="./image/l03 1.png" alt="Footer Image" />
-            <p>
-              Sed ut perspiciauis unde ommnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, to Sed ut perspiciauis unde
-              ommnis iste natus error sit voluptatem accusantium doloremque
-            </p>
+        <!-- Start Contact Page  -->
+        <section id="contact">
+          <div class="contact">
+            <div class="contact-map">
+              <div class="bg-image">
+                <div class="info">
+                  <div class="info-text">
+                    <h2>Contact Info</h2>
+                    <div class="item">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>
+                        Al Thumama St. Building 3278, 3rd Floor, Office: 10, Al
+                        Yassmin District, Riyadh - Saudi Arabia
+                      </p>
+                    </div>
+                    <div class="item">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>0114993311</p>
+                    </div>
+                  </div>
+                  <div class="map-info">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2938.1234296193497!2d31.357152055765116!3d30.05951859214772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583ddec1f976df%3A0xe441298c6bf45762!2sAl%20Hayy%20Ath%20Thamin%2C%20Al%20Mintaqah%20as%20S%C4%81disah%2C%20Nasr%20City%2C%20Cairo%20Governorate%204452004!5e0!3m2!1sen!2seg!4v1717171034727!5m2!1sen!2seg"
+                      width="350"
+                      height="300"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <div class="info">
+                <p class="contact-title">Contact us</p>
+                <h2>Get in Touch</h2>
+              </div>
+              <div class="forms">
+                <form>
+                  <input type="email" placeholder="Email" />
+                  <div class="group-input">
+                    <input type="text" placeholder="Name" />
+                    <input type="number" placeholder="Phone" />
+                  </div>
+                  <textarea placeholder="Messages" rows="5"></textarea>
+                  <button class="btn-send">Send</button>
+                </form>
+              </div>
+            </div>
           </div>
-          <div class="footer-link">
-            <h4>Pages</h4>
-            <ul>
-              <li>About</li>
-              <li>Portfolio</li>
-              <li>Blog</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-          <div class="footer-link">
-            <h4>Services</h4>
-            <ul>
-              <li>Implant</li>
-              <li>Veneers</li>
-              <li>Teeth Whitening</li>
-              <li>Braces</li>
-            </ul>
-          </div>
-          <div class="footer-link">
-            <h4>Contact Us</h4>
-            <ul>
-              <li class="cont-footer">
-                <i class="fa-solid fa-phone"></i>
-                <p>(907) 555-0101</p>
-              </li>
-              <li class="cont-footer">
-                <i class="fa-brands fa-facebook-f"></i>
-                <p>Dental Care</p>
-              </li>
-              <li class="cont-footer">
-                <i class="fa-brands fa-instagram"></i>
-                <p>Dental Care</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <div class="copy-right">
-          <p>&copy; 2024 Laaqiq. All rights reserved.</p>
-        </div>
-      </footer>
+        </section>
+        <!-- End Contact Page  -->
 
-      <!-- End Footer -->
-    </div>
+        <!-- Start Footer -->
+        <footer>
+          <div class="footer-container">
+            <div class="footer-content">
+              <img src="./image/l03 1.png" alt="Footer Image" />
+              <p>
+                Sed ut perspiciauis unde ommnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, to Sed ut perspiciauis unde
+                ommnis iste natus error sit voluptatem accusantium doloremque
+              </p>
+            </div>
+            <div class="footer-link">
+              <h4>Pages</h4>
+              <ul>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="footer-link">
+              <h4>Services</h4>
+              <ul>
+                <li>Implant</li>
+                <li>Veneers</li>
+                <li>Teeth Whitening</li>
+                <li>Braces</li>
+              </ul>
+            </div>
+            <div class="footer-link">
+              <h4>Contact Us</h4>
+              <ul>
+                <li class="cont-footer">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>(907) 555-0101</p>
+                </li>
+                <li class="cont-footer">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <p>Dental Care</p>
+                </li>
+                <li class="cont-footer">
+                  <i class="fa-brands fa-instagram"></i>
+                  <p>Dental Care</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="copy-right">
+            <p>&copy; 2024 Laaqiq. All rights reserved.</p>
+          </div>
+        </footer>
+
+        <!-- End Footer -->
+      </div>
+    </main>
+
     <div class="cursor"></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
   </body>
 </html>

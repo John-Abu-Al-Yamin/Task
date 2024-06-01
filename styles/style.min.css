@@ -295,7 +295,6 @@ nav .active-menu {
   border-color: transparent;
 }
 
-
 /* End Cases Page  */
 
 /* Start Contact Page */
@@ -541,8 +540,8 @@ footer .copy-right p {
 .cursor,
 .trail {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-color: rgba(0, 123, 255, 0.8);
   border-radius: 50%;
   pointer-events: none;
@@ -565,7 +564,7 @@ footer .copy-right p {
     display: block;
   }
   nav ul {
-    box-shadow: 5px 3px 8px #666565;
+    box-shadow: 5px 3px 8px #606060;
     position: absolute;
     top: 70px;
     left: 0;
@@ -576,6 +575,7 @@ footer .copy-right p {
     transform: translateY(-500px);
     transition: all 0.4s ease;
     background: #0a0a0a9d;
+    z-index: 999;
   }
   nav .active-menu {
     transform: translateY(0px);
