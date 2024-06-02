@@ -1,3 +1,4 @@
+/* Start Header */
 header .img {
   position: relative;
   background-image: url("../image/Rectangle\ 7.png");
@@ -25,8 +26,7 @@ header .img {
 /* Start Nav */
 
 header nav {
-  /* position: fixed;
-   top: 0; */
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,7 +89,7 @@ nav .active-menu {
   display: block;
 }
 
-/* Start End */
+/*  End  Header*/
 
 /* Start Hero Section */
 .hero-section {
@@ -101,7 +101,7 @@ nav .active-menu {
 .hero-section .info {
   width: 50%;
 }
-.hero-section .info h2 {
+.hero-section .info h1 {
   margin-bottom: 1.6rem;
   font-size: 36px;
 }
@@ -205,7 +205,7 @@ nav .active-menu {
   background-image: url("../image/Rectangle\ 5.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  height: auto;
 }
 .about-left .bg-image .image-info {
   padding: 18px 12px;
@@ -385,6 +385,9 @@ textarea {
   padding: 12px 20px;
   border-radius: 0.5rem;
   transition: border-color var(--transition), box-shadow var(--transition);
+}
+.contact-form .forms form label {
+  display: none;
 }
 .contact-form .forms form input::placeholder {
   color: white;
@@ -616,22 +619,6 @@ footer .copy-right p {
     width: 400px;
   }
 }
-/* res about Section */
-@media (max-width: 450px) {
-  .about-left .about-image img {
-    width: 130px;
-  }
-  .about-left .bg-image .image-info {
-    width: auto;
-  }
-}
-
-/* res Hero Section */
-@media (max-width: 450px) {
-  .hero-section .hero-image {
-    width: 80%;
-  }
-}
 
 /* res cases && res Contact Page*/
 @media (max-width: 768px) {
@@ -656,6 +643,26 @@ footer .copy-right p {
 
   .contact .contact-form {
     width: 100%;
+  }
+}
+
+/* res about Section */
+@media (max-width: 480px) {
+  .about-left .about-image img {
+    width: 130px;
+  }
+  .about-left .bg-image .image-info {
+    width: auto;
+  }
+  .about-left .bg-image .image-info {
+    padding: 10px 6px;
+  }
+}
+
+/* res Hero Section */
+@media (max-width: 480px) {
+  .hero-section .hero-image {
+    width: 80%;
   }
 }
 /* res Contact Page */

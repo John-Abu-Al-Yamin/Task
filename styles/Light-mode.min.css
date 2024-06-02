@@ -134,11 +134,11 @@ body.light-theme .footer-link h4 {
 body.light-theme .footer-link h4:hover {
   color: rgb(98, 98, 255);
 }
-body.light-theme .footer-link ul li {
+body.light-theme .footer-link ul li a{
   color: var(--color-bg);
 }
 
-body.light-theme .footer-link ul li:hover {
+body.light-theme .footer-link ul li a:hover {
   transform: translateX(5px);
   color: var(--main-color);
 }
